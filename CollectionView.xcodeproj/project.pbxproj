@@ -13,6 +13,9 @@
 		2E0ECDB722032B7800514D92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E0ECDB622032B7800514D92 /* Assets.xcassets */; };
 		2E0ECDBA22032B7800514D92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E0ECDB822032B7800514D92 /* LaunchScreen.storyboard */; };
 		2E0ECDBD22032B7800514D92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E0ECDBC22032B7800514D92 /* main.m */; };
+		2E0ECDC522032BA800514D92 /* HomeCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E0ECDC422032BA800514D92 /* HomeCollectionView.m */; };
+		2E0ECDCE22032EBC00514D92 /* HomeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E0ECDCC22032EBC00514D92 /* HomeCollectionViewCell.m */; };
+		2E0ECDCF22032EBC00514D92 /* HomeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E0ECDCD22032EBC00514D92 /* HomeCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,11 @@
 		2E0ECDB922032B7800514D92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E0ECDBB22032B7800514D92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E0ECDBC22032B7800514D92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E0ECDC322032BA800514D92 /* HomeCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeCollectionView.h; sourceTree = "<group>"; };
+		2E0ECDC422032BA800514D92 /* HomeCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeCollectionView.m; sourceTree = "<group>"; };
+		2E0ECDCB22032EBB00514D92 /* HomeCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCollectionViewCell.h; sourceTree = "<group>"; };
+		2E0ECDCC22032EBC00514D92 /* HomeCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCollectionViewCell.m; sourceTree = "<group>"; };
+		2E0ECDCD22032EBC00514D92 /* HomeCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,9 @@
 		2E0ECDAC22032B7500514D92 /* CollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				2E0ECDCB22032EBB00514D92 /* HomeCollectionViewCell.h */,
+				2E0ECDCC22032EBC00514D92 /* HomeCollectionViewCell.m */,
+				2E0ECDCD22032EBC00514D92 /* HomeCollectionViewCell.xib */,
 				2E0ECDAD22032B7500514D92 /* AppDelegate.h */,
 				2E0ECDAE22032B7500514D92 /* AppDelegate.m */,
 				2E0ECDB022032B7500514D92 /* ViewController.h */,
@@ -67,6 +78,8 @@
 				2E0ECDB822032B7800514D92 /* LaunchScreen.storyboard */,
 				2E0ECDBB22032B7800514D92 /* Info.plist */,
 				2E0ECDBC22032B7800514D92 /* main.m */,
+				2E0ECDC322032BA800514D92 /* HomeCollectionView.h */,
+				2E0ECDC422032BA800514D92 /* HomeCollectionView.m */,
 			);
 			path = CollectionView;
 			sourceTree = "<group>";
@@ -131,6 +144,7 @@
 				2E0ECDBA22032B7800514D92 /* LaunchScreen.storyboard in Resources */,
 				2E0ECDB722032B7800514D92 /* Assets.xcassets in Resources */,
 				2E0ECDB522032B7500514D92 /* Main.storyboard in Resources */,
+				2E0ECDCF22032EBC00514D92 /* HomeCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +158,8 @@
 				2E0ECDB222032B7500514D92 /* ViewController.m in Sources */,
 				2E0ECDBD22032B7800514D92 /* main.m in Sources */,
 				2E0ECDAF22032B7500514D92 /* AppDelegate.m in Sources */,
+				2E0ECDC522032BA800514D92 /* HomeCollectionView.m in Sources */,
+				2E0ECDCE22032EBC00514D92 /* HomeCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

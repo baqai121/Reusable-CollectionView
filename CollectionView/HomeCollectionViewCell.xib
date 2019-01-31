@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HomeViewControllerCell1" id="gTV-IL-0wX" customClass="HomeCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="170" height="102"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="170" height="102"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ALL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A22-q1-S5x">
+                        <rect key="frame" x="69.5" y="40.5" width="31" height="21"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HZ7-qM-O0b">
+                        <rect key="frame" x="0.0" y="101" width="170" height="1"/>
+                        <color key="backgroundColor" red="1" green="0.12079039079999999" blue="0.03444079202" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="uP5-bn-kIU"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <color key="backgroundColor" red="0.96470588239999999" green="0.96470588239999999" blue="0.96470588239999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="HZ7-qM-O0b" secondAttribute="trailing" id="0RK-6g-9Ag"/>
+                <constraint firstAttribute="bottom" secondItem="HZ7-qM-O0b" secondAttribute="bottom" id="6vh-w1-fa4"/>
+                <constraint firstItem="HZ7-qM-O0b" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Grt-Ze-zry"/>
+                <constraint firstItem="A22-q1-S5x" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="aDk-0q-4sr"/>
+                <constraint firstItem="A22-q1-S5x" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="bjw-Tg-fYp"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="SEy-5g-ep8"/>
+            <size key="customSize" width="170" height="102"/>
+            <connections>
+                <outlet property="lblTitle" destination="A22-q1-S5x" id="VVe-Xw-wWN"/>
+                <outlet property="viewUnderline" destination="HZ7-qM-O0b" id="YUA-Hg-lea"/>
+            </connections>
+            <point key="canvasLocation" x="-160" y="-1.7991004497751126"/>
+        </collectionViewCell>
+    </objects>
+</document>
